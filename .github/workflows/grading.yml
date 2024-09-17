@@ -16,6 +16,8 @@ jobs:
           submodules: true
           fetch-depth: 2
           token: ${{ secrets.GH_DB_TOKEN }}
+      - name: Configure git repository
+        run: git config --global --add safe.directory $GITHUB_WORKSPACE
       - name: Show submodule updated
         run: git diff --name-only HEAD^
       - name: Check repository clean
