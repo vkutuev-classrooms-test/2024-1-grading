@@ -1,3 +1,6 @@
 [submodule "2024-1-tests"]
 	path = 2024-1-tests
 	url = git@github.com:vkutuev-classrooms-test/2024-1-tests.git
+[submodule "2024-1-vkutuev"]
+	path = 2024-1-vkutuev
+	url = git@github.com:vkutuev-classrooms-test/2024-1-vkutuev.git
